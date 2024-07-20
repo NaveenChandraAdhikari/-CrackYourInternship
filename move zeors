@@ -1,0 +1,8 @@
+lass Solution {
+    public int[] moveZeroes(int[] arr) {
+        int k =0;
+        while(k<arr.length){
+            if(arr[k]==0){
+                break;
+            }
+            else{
